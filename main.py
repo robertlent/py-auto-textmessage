@@ -1,6 +1,7 @@
 import schedule
 import time
 import requests
+import click
 
 
 def main():
@@ -27,8 +28,11 @@ def main():
 def set_text_details():
     number = input("What phone number would you like to text? ")
     number = ''.join(c for c in number if c.isdigit())
-    message = input(
-        f"Please enter your text message for phone number {number}:\n\n")
+    prompt = f"# Please enter your text message for phone number {number} above."
+    message = click.edit('\n\n' + prompt)
+
+    if message:
+        message = message.split(prompt)[0].strip()
 
     return number, message
 
@@ -39,6 +43,7 @@ def send_text():
         'message': message,
         'key': 'textbelt',  # textbelt allows one free text per day using this key
     })
+
     print(resp.json())
 
 
