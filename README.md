@@ -1,44 +1,25 @@
 # Py Text Sender
 
-  [![License](https://img.shields.io/static/v1?label=License&message=MIT&color=blue&?style=plastic&logo=appveyor)](https://opensource.org/license/MIT)
-
-
+  [![License](https://img.shields.io/static/v1?label=License&message=GPL-3-0&color=blue&?style=plastic&logo=appveyor)](https://opensource.org/license/GPL-3-0)
 
 ## Table Of Content
 
 - [Description](#description)
-
 - [Installation](#installation)
 - [Usage](#usage)
-
-
 - [GitHub](#github)
-
 - [License](#license)
-
-
 
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/robertlent/py-auto-textmessage?style=plastic)
 
   ![GitHub top language](https://img.shields.io/github/languages/top/robertlent/py-auto-textmessage?style=plastic)
 
-
-
 ## Description
 
   Python script to send a text message through textbelt. A message can also be scheduled to go out every day at a certain time.
 
 Using the program with the included key 'textbelt', the user can send one free text message per day.
-
-
-
-
-
-
-
-
-
 
 
 
@@ -49,13 +30,7 @@ Using the program with the included key 'textbelt', the user can send one free t
 3. Install dependencies using `pip3 install -r requirements.txt`
 
 
-
-
-
 Py Text Sender is built with the following tools and libraries: <ul><li>Python</li><li><a href='https://textbelt.com/'>textbelt</a></li></ul>
-
-
-
 
 
 ## Usage
@@ -70,30 +45,11 @@ Py Text Sender is built with the following tools and libraries: <ul><li>Python</
         - The program will continue running, sending your message every day at the provided time, until you kill it.
 
 
-
-
-
-
-
-
-
-
-
-
 ## GitHub
 
 <a href="https://github.com/robertlent"><strong>robertlent</a></strong>
 
 
-
-
-
-
-
-
-
 ## License
 
-[![License](https://img.shields.io/static/v1?label=Licence&message=MIT&color=blue)](https://opensource.org/license/MIT)
-
-
+[![License](https://img.shields.io/static/v1?label=License&message=GPL-3-0&color=blue&?style=plastic&logo=appveyor)](https://opensource.org/license/GPL-3-0)
